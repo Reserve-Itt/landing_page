@@ -1,9 +1,11 @@
 /********** Template CSS **********/
- 
+
 
 :root {
-    --primary: #4294E3;
-    --secondary: #8F12FD;
+    /* --primary: #4294E3; */
+    --primary: #d3272f;
+    /* --secondary: #8F12FD; */
+    --secondary: #ff3030;
     --light: #F0F6FF;
     --dark: #262B47;
 }
@@ -501,4 +503,10 @@ h6,
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+/** CSS OVERRIDES  */
+
+.owl-dot {
+    box-shadow: #d3272f 0 0 0 0 inset;
 }
